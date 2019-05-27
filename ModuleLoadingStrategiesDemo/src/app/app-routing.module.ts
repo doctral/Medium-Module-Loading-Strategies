@@ -20,10 +20,6 @@ const routes: Routes = [
     loadChildren: './features/lazy-loading-module/lazy-loading.module#LazyLoadingModule'
   },
   {
-    path: 'lazy-loading',
-    loadChildren: './features/lazy-loading-module/lazy-loading.module#LazyLoadingModule'
-  },
-  {
     path: 'pre-loading',
     loadChildren: './features/pre-loading-module/pre-loading.module#PreLoadingModule',
     data: { applyPreload: true }
